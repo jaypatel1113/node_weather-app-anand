@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "author": "thapa technical",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "requests": "^0.3.0",
-    "dotenv": "^8.2.0"
+    "serverless-http": "^3.0.2"
   }
 }
